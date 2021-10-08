@@ -6,7 +6,7 @@ public class arithmetischeOperationen
         int value2 = 3;
 
         //addition
-        System.out.println("addition: " +value1+value2);
+        System.out.println("addition: " + (value1+value2));
 
         //subtraction
         System.out.println("subtraction: "+ (value1 - value2));
