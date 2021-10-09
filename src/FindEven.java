@@ -9,7 +9,7 @@ public class FindEven
         int inputnumber = sc.nextInt();
         int counter = 0;
 
-        while (counter<=inputnumber)
+        /*while (counter<=inputnumber)
         {
             if((counter > 0) && (counter % 2 == 0))
             {
@@ -17,6 +17,17 @@ public class FindEven
             }
             counter++;
         }
+        System.out.println("\nEs wurden alle geraden Zahlen bis zur Inputnumber überprüft");*/ //While Schleife
+
+        for (int i = 1; i <= inputnumber; i++)
+        {
+            if((i > 0) && (i % 2 == 0))
+            {
+                System.out.print(i + " ");
+                counter++;
+            }
+        }
         System.out.println("\nEs wurden alle geraden Zahlen bis zur Inputnumber überprüft");
+        System.out.println("Es wurden insgesamt "+counter+ " gerade Zahlen gefunden");
     }
 }
