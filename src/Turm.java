@@ -13,6 +13,6 @@ public class Turm
                 }
             }
         }
-        System.out.println("Turm wurde erfolgreich durchgeführt");
+        System.out.println("Turm wurde erfolgreich durchgeführt!");
     }
 }
